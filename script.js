@@ -15,7 +15,7 @@ function openCity(typeName, elmnt, color) {
 // Get the element with id="defaultOpen" and click on it
 document.getElementById("defaultOpen").click();
 
-const p = Array.from(document.querySelectorAll('p:first-of-type'));
+const p = Array.from(document.querySelectorAll('div p:first-of-type'));
 p.forEach(i => {
   const text = i.innerText;
   const updatedHtml = text.split('').map(char => {

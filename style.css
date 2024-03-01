@@ -33,6 +33,16 @@ body {
       margin: -25px auto -5px auto;
     }
 
+    h1 p {
+      font-size: 1.5rem;
+      font-weight: lighter;
+      font-style: italic;
+    }
+
+    h1 p a {
+      color: white;
+    }
+
     .capital-letter {
       color: rgb(48, 48, 48);
       font-size: 1.2rem;
