@@ -64,11 +64,13 @@ body {
     }
 
     p {
-      margin-left: 200px;
-      margin-right: 200px;
+      /* margin-left: 200px;
+      margin-right: 200px; */
+      margin: 15px auto;
       font-size: 16px;
       text-align: center;
-      line-height: 1.5;
+      line-height: 1.5;   
+      width: 50%;   
     }    
 
     div[id*="NT"] {
@@ -87,10 +89,19 @@ body {
       background-color: orange;
     }
 
+    @media (min-width: 1250px) {
+      /* p {
+        width: 50%;
+        margin-left: auto;
+        margin-right: auto;
+      } */
+    }
+
     @media (max-width: 1200px) {
       p {
-        margin-left: 0;
-        margin-right: 0;
+        /* margin-left: 0;
+        margin-right: 0; */
+        width: 70%;
       }
 
       .tablink {
@@ -104,6 +115,10 @@ body {
         width: 100%;
         float: none;
         font-size: 100%;
+      }
+
+      p {
+        width: 100%;
       }
     }
 
