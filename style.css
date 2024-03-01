@@ -15,7 +15,18 @@ body {
 
     .footer {
       font-size: .9rem;
+      color: white;
+      background-color: black;
+      padding: 10px 0;
+      width: 100%;
+      /* margin: 0; */
+      margin-top: 45px;
+      text-align: center;
     }
+
+    /* footer > p {
+      margin-top: 10px;
+    } */
 
     div h1 {
       font-size: 6rem;
@@ -26,11 +37,6 @@ body {
       color: rgb(48, 48, 48);
       font-size: 1.2rem;
       /* font-weight: bold; */
-    }
-
-
-    p:first-of-type {
-      font-weight: bold;
     }
 
     img {
@@ -67,7 +73,7 @@ body {
       margin-top: -10px;
     }
 
-    p {
+    p:not(footer p) {
       /* margin-left: 200px;
       margin-right: 200px; */
       margin: 15px auto;
@@ -75,7 +81,11 @@ body {
       text-align: center;
       line-height: 1.5;   
       width: 50%;   
-    }    
+    }
+    
+    p:first-of-type:not(footer p) {
+      font-weight: bold;
+    }
 
     div[id*="NT"] {
       background-color: red;
@@ -93,19 +103,15 @@ body {
       background-color: orange;
     }
 
-    @media (min-width: 1250px) {
-      /* p {
-        width: 50%;
-        margin-left: auto;
-        margin-right: auto;
-      } */
-    }
-
     @media (max-width: 1200px) {
-      p {
+      p:not(footer p) {
         /* margin-left: 0;
         margin-right: 0; */
         width: 70%;
+      }
+
+      footer {
+        margin-top: -15px;
       }
 
       .tablink {
@@ -121,8 +127,12 @@ body {
         font-size: 100%;
       }
 
-      p {
+      p:not(footer p) {
         width: 100%;
+      }
+
+      footer {
+        margin-top: -45px;
       }
     }
 
