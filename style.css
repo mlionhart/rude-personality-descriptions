@@ -33,14 +33,13 @@ body {
       margin: -25px auto -5px auto;
     }
 
-    h1 p {
-      font-size: 1.5rem;
-      font-weight: lighter;
+    .first-h1 p {
+      font-size: 1.2rem;
       font-style: italic;
     }
 
-    h1 p a {
-      color: white;
+    a:visited {
+      color: rgb(6, 232, 248);
     }
 
     .capital-letter {
