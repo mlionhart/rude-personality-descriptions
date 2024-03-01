@@ -87,6 +87,7 @@ body {
       .tablink {
         width: 100%;
         float: none;
+        font-size: 100%;
       }
     }
 
@@ -102,6 +103,7 @@ body {
       div first-of-type:p {
         margin-bottom: 10px;
       }
+
       
       /* #INTJ img, #INTP img {
         width: 100%;
