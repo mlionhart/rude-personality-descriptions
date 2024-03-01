@@ -73,14 +73,14 @@ body {
       margin-top: -10px;
     }
 
-    p:not(footer p):not(p:first-of-type) {
+    p:nth-of-type(2) {
       /* margin-left: 200px;
       margin-right: 200px; */
       margin: 15px auto;
       font-size: 16px;
-      text-align: justify;
+      text-align: left;
       line-height: 1.5;   
-      width: 50%;   
+      width: 60%;   
     }
     
     p:first-of-type:not(footer p) {
@@ -104,10 +104,10 @@ body {
     }
 
     @media (max-width: 1200px) {
-      p:not(footer p) {
+      p:nth-of-type(2) {
         /* margin-left: 0;
         margin-right: 0; */
-        width: 70%;
+        width: 80%;
       }
 
       footer {
@@ -127,7 +127,7 @@ body {
         font-size: 100%;
       }
 
-      p:not(footer p) {
+      p:nth-of-type(2) {
         width: 100%;
       }
 
@@ -148,6 +148,10 @@ body {
       div first-of-type:p {
         margin-bottom: 10px;
         color: #827c7c;
+      }
+
+      p:nth-of-type(2) {
+        width: 100%;
       }
     }
 
