@@ -103,9 +103,10 @@ body {
       div first-of-type:p {
         margin-bottom: 10px;
       }
+    }
 
-      
-      /* #INTJ img, #INTP img {
-        width: 100%;
-      } */
+    @media (max-width: 468px) {
+      h1 {
+        font-size: 1.6rem;
+      }
     }
