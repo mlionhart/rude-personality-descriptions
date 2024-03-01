@@ -13,6 +13,11 @@ body {
       margin: 0;
     }
 
+    .capital-letter {
+      color: black;
+      font-size: 1.5rem;
+    }
+
     img {
       margin-bottom: -40px;
       margin-top: 10px;
@@ -53,7 +58,7 @@ body {
       font-size: 16px;
       text-align: center;
       line-height: 1.5;
-    }
+    }    
 
     div[id*="NT"] {
       background-color: red;
@@ -102,6 +107,7 @@ body {
 
       div first-of-type:p {
         margin-bottom: 10px;
+        color: #827c7c;
       }
     }
 
