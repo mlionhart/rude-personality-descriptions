@@ -10,6 +10,7 @@ function openCity(typeName, elmnt, color) {
   }
   document.getElementById(typeName).style.display = "block";
   elmnt.style.backgroundColor = color;
+  window.scrollTo(0,0);
 }
 // Get the element with id="defaultOpen" and click on it
 document.getElementById("defaultOpen").click();
