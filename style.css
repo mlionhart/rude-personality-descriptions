@@ -73,12 +73,12 @@ body {
       margin-top: -10px;
     }
 
-    p:not(footer p) {
+    p:not(footer p):not(p:first-of-type) {
       /* margin-left: 200px;
       margin-right: 200px; */
       margin: 15px auto;
       font-size: 16px;
-      text-align: center;
+      text-align: justify;
       line-height: 1.5;   
       width: 50%;   
     }
