@@ -96,10 +96,14 @@ body {
       }
 
       img {
-        width: 80%;
+        width: 100%;
       }
 
       div first-of-type:p {
         margin-bottom: 10px;
       }
+      
+      /* #INTJ img, #INTP img {
+        width: 100%;
+      } */
     }
