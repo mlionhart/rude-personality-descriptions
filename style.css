@@ -43,9 +43,15 @@ body {
     }
 
     .capital-letter {
-      color: rgb(48, 48, 48);
+      color: black;
+      font-size: 1.6rem;
+      font-weight: 700;
+    }
+
+    p:has(.capital-letter) {
+      /* letter-spacing: 1.2px; */
+      word-spacing: 1.5px;
       font-size: 1.2rem;
-      /* font-weight: bold; */
     }
 
     img {
@@ -143,6 +149,24 @@ body {
 
     ul li a:hover {
       background-color: #ff0000;
+    }
+
+    @media (min-width: 1600px) {
+      body {
+        width: 65%;
+      }
+
+      ul {
+        width: 65%;
+      }
+
+      img, p:nth-of-type(2) {
+        width: 65%;
+      }
+
+      p:nth-of-type(2) {
+        margin-top: 25px;
+      }
     }
 
     @media (max-width: 1200px) {
